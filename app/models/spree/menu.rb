@@ -7,9 +7,6 @@ module Spree
     before_create :set_presentation
     before_update :set_presentation
     
-    attr_accessible :presentation, :url, :parent, :position, :visible, :name, :linkable, :parent_id,
-                    :linkable_id, :linkable_type, :category, :class_list
-    
     validates :name, :category, :presence => true
     validate :linkable_type, :presence => true, :if =>"url.blank?"
     validate :linkable_id, :presence => true, :if =>"url.blank?"

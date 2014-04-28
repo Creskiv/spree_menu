@@ -1,7 +1,12 @@
 module Spree
   module Admin
     class MenusController < ResourceController
-      
+
+      def create
+        @menu = Spree::Menu.create(menus_params)
+        redirect_to(:action => :index)
+      end
+
       def index
         @menus = Spree::Menu.only_parent
       end
@@ -21,6 +26,13 @@ module Spree
         end
       end
 
+      private
+      def menus_params
+        params.require(:menu).permit(:presentation, :url, :parent, :position, :visible, :name, :linkable, :parent_id,
+                                      :linkable_id, :linkable_type, :category, :class_list)
+      end
+
     end
   end
 end
+
