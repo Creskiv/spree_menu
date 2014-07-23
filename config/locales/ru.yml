@@ -1,0 +1,14 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ru:
+  insert_new_url: "Вставить новую ссылку"
+  select_from_taxon: "Выбрать из категорий"
+  select_from_product: "Выбрать из продуктов"
+  select_from_blog: "Выбрать из новостей"
+  parent: "Родительская"
+  position: "Позиция"
+  visible: "Активна"
+  menus: "Меню"
+  new_menu: "Новое меню"
+  editing_menus: "Редактировать меню"

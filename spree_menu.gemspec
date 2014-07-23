@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_menu'
-  s.version     = '1.1.1'
+  s.version     = '1.1.2'
   s.summary     = 'tree menu for spree'
   s.required_ruby_version = '>= 1.8.7'
 
