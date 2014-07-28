@@ -12,3 +12,7 @@ ru:
   menus: "Меню"
   new_menu: "Новое меню"
   editing_menus: "Редактировать меню"
+  spree:
+    admin:
+      tab:
+        menus: "Меню"
