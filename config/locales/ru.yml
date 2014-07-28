@@ -2,6 +2,7 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 ru:
+  listing_menu: Список меню
   insert_new_url: "Вставить новую ссылку"
   select_from_taxon: "Выбрать из категорий"
   select_from_product: "Выбрать из продуктов"
